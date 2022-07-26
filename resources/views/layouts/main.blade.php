@@ -1,32 +1,22 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>World Vision</title>
     <!-- plugin css for this page -->
-    <link
-        rel="stylesheet"
-        href="./assets/vendors/mdi/css/materialdesignicons.min.css"
-    />
-    <link rel="stylesheet" href="./assets/vendors/aos/dist/aos.css/aos.css" />
-    <link
-        rel="stylesheet"
-        href="./assets/vendors/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link
-        rel="stylesheet"
-        href="./assets/vendors/owl.carousel/dist/assets/owl.theme.default.min.css"
-    />
+    <link rel="stylesheet" href="{{asset('assets/vendors/mdi/css/materialdesignicons.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendors/aos/dist/aos.css/aos.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendors/owl.carousel/dist/assets/owl.carousel.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendors/owl.carousel/dist/assets/owl.theme.default.min.css')}}"/>
     <!-- End plugin css for this page -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}"/>
     <!-- inject:css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <!-- endinject -->
 </head>
-
 <body>
 <div class="container-scroller">
     <div class="main-panel">
@@ -41,7 +31,7 @@
                         </ul>
                         <div>
                             <a class="navbar-brand" href="#"
-                            ><img src="assets/images/logo.svg" alt=""
+                            ><img src="{{asset('assets/images/logo.svg')}}" alt=""
                                 /></a>
                         </div>
                         <div class="d-flex">
@@ -107,10 +97,10 @@
                                     </button>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link active" href="index.html">Home</a>
+                                    <a class="nav-link active" href="{{route('home')}}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pages/world.html">World</a>
+                                    <a class="nav-link" href="">World</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="pages/author.html">Magazine</a>
@@ -147,8 +137,8 @@
                 <!-- partial -->
             </div>
         </header>
-        @yield('content')
-        <!-- main-panel ends -->
+    @yield('content')
+    <!-- main-panel ends -->
         <!-- container-scroller ends -->
 
         <!-- partial:partials/_footer.html -->
@@ -205,7 +195,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="d-flex justify-content-between">
-                            <img src="assets/images/logo.svg" class="footer-logo" alt="" />
+                            <img src="{{asset('assets/images/logo.svg')}}" class="footer-logo" alt=""/>
 
                             <div class="d-flex justify-content-end footer-social">
                                 <h5 class="m-0 font-weight-600 mr-3 d-none d-lg-flex">Follow on</h5>
@@ -255,7 +245,8 @@
                                 <li><a href="#">Sitemap</a></li>
                             </ul>
                             <p class="font-weight-medium">
-                                © 2020 <a href="https://www.bootstrapdash.com/" target="_blank" class="text-dark">@ BootstrapDash</a>, Inc.All Rights Reserved.
+                                © 2020 <a href="https://www.bootstrapdash.com/" target="_blank" class="text-dark">@
+                                    BootstrapDash</a>, Inc.All Rights Reserved.
                             </p>
                         </div>
                     </div>
@@ -267,13 +258,13 @@
     </div>
 </div>
 <!-- inject:js -->
-<script src="assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="{{asset('assets/vendors/js/vendor.bundle.base.js')}}"></script>
 <!-- endinject -->
 <!-- plugin js for this page -->
-<script src="./assets/vendors/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="{{asset('assets/vendors/owl.carousel/dist/owl.carousel.min.js')}}"></script>
 <!-- End plugin js for this page -->
 <!-- Custom js for this page-->
-<script src="./assets/js/demo.js"></script>
+<script src="{{asset('assets/js/demo.js')}}"></script>
 <!-- End custom js for this page-->
 </body>
 </html>

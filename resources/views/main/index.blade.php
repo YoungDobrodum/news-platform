@@ -7,7 +7,7 @@
                 <div class="d-flex justify-content-between  mb-3 mb-lg-0">
                     <div>
                         <img
-                            src="assets/images/dashboard/star-magazine-1.jpg"
+                            src="{{asset('assets/images/dashboard/star-magazine-1.jpg')}}"
                             alt="thumb"
                             class="banner-top-thumb"
                         />
@@ -19,7 +19,7 @@
                 <div class="d-flex justify-content-between mb-3 mb-lg-0">
                     <div>
                         <img
-                            src="assets/images/dashboard/star-magazine-2.jpg"
+                            src="{{asset('assets/images/dashboard/star-magazine-2.jpg')}}"
                             alt="thumb"
                             class="banner-top-thumb"
                         />
@@ -29,7 +29,7 @@
                 <div class="d-flex justify-content-between mb-3 mb-lg-0">
                     <div>
                         <img
-                            src="assets/images/dashboard/star-magazine-3.jpg"
+                            src="{{asset('assets/images/dashboard/star-magazine-3.jpg')}}"
                             alt="thumb"
                             class="banner-top-thumb"
                         />
@@ -41,7 +41,7 @@
                 <div class="d-flex justify-content-between mb-3 mb-lg-0">
                     <div>
                         <img
-                            src="assets/images/dashboard/star-magazine-4.jpg"
+                            src="{{asset('assets/images/dashboard/star-magazine-4.jpg')}}"
                             alt="thumb"
                             class="banner-top-thumb"
                         />
@@ -72,7 +72,7 @@
                                 </p>
                             </div>
                             <div class="carousel-image">
-                                <img src="assets/images/dashboard/banner.jpg" alt=""/>
+                                <img src="{{asset('assets/images/dashboard/banner.jpg')}}" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                                 </p>
                             </div>
                             <div class="carousel-image">
-                                <img src="assets/images/dashboard/banner_1.jpg" alt=""/>
+                                <img src="{{asset('assets/images/dashboard/banner_1.jpg')}}" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                                 </p>
                             </div>
                             <div class="carousel-image">
-                                <img src="assets/images/dashboard/banner_2.jpg" alt=""/>
+                                <img src="{{asset('assets/images/dashboard/banner_2.jpg')}}" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                                 </p>
                             </div>
                             <div class="carousel-image">
-                                <img src="assets/images/dashboard/banner_3.jpg" alt=""/>
+                                <img src="{{asset('assets/images/dashboard/banner_3.jpg')}}" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                         <div class="py-3 border-bottom">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_1.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_1.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -162,7 +162,7 @@
                         <div class="py-3 border-bottom">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_2.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_2.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -179,7 +179,7 @@
                         <div class="pt-4 pb-4 border-bottom">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_2.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_2.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -194,7 +194,7 @@
                         <div class="pt-3 pb-4 border-bottom">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_4.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_4.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -211,7 +211,7 @@
                         <div class="pt-4 pb-4">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_5.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_5.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -226,7 +226,7 @@
                         <div class="pt-3 pb-4">
                             <div class="d-flex align-items-center pb-2">
                                 <img
-                                    src="assets/images/dashboard/Profile_6.jpg"
+                                    src="{{asset('assets/images/dashboard/Profile_6.jpg')}}"
                                     class="img-xs img-rounded mr-2"
                                     alt="thumb"
                                 />
@@ -252,7 +252,7 @@
                 <div class="col-lg-3 col-sm-6 grid-margin mb-5 mb-sm-2">
                     <div class="position-relative image-hover">
                         <img
-                            src="assets/images/dashboard/travel.jpg"
+                            src="{{asset('assets/images/dashboard/travel.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
@@ -271,7 +271,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5 mb-sm-2">
                     <div class="position-relative image-hover">
                         <img
-                            src="assets/images/dashboard/news.jpg"
+                            src="{{asset('assets/images/dashboard/news.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
@@ -290,7 +290,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5 mb-sm-2">
                     <div class="position-relative image-hover">
                         <img
-                            src="assets/images/dashboard/art.jpg"
+                            src="{{asset('assets/images/dashboard/art.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
@@ -309,7 +309,7 @@
                 <div class="col-lg-3 col-sm-6 mb-5 mb-sm-2">
                     <div class="position-relative image-hover">
                         <img
-                            src="assets/images/dashboard/business.jpg"
+                            src="{{asset('assets/images/dashboard/business.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
@@ -339,7 +339,7 @@
                 <div class="col-lg-6  mb-5 mb-sm-2">
                     <div class="position-relative image-hover">
                         <img
-                            src="assets/images/dashboard/glob.jpg"
+                            src="{{asset('assets/images/dashboard/glob.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
@@ -359,7 +359,7 @@
                         <div class="col-sm-6  mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-5.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-5.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -375,7 +375,7 @@
                         <div class="col-sm-6  mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-6.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-6.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -393,7 +393,7 @@
                         <div class="col-sm-6  mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-7.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-7.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -409,7 +409,7 @@
                         <div class="col-sm-6">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-8.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-8.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -440,7 +440,7 @@
                         <div class="col-sm-4  mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-9.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-9.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -453,7 +453,7 @@
                         <div class="col-sm-4 mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-10.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-10.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -466,7 +466,7 @@
                         <div class="col-sm-4 mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-11.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-11.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -481,7 +481,7 @@
                         <div class="col-sm-4 mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-12.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-12.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -494,7 +494,7 @@
                         <div class="col-sm-4 mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-13.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-13.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -507,7 +507,7 @@
                         <div class="col-sm-4 mb-5 mb-sm-2">
                             <div class="position-relative image-hover">
                                 <img
-                                    src="assets/images/dashboard/star-magazine-14.jpg"
+                                    src="{{asset('assets/images/dashboard/star-magazine-14.jpg')}}"
                                     class="img-fluid"
                                     alt="world-news"
                                 />
@@ -522,7 +522,7 @@
                 <div class="col-lg-3">
                     <div class="position-relative mb-3">
                         <img
-                            src="assets/images/dashboard/star-magazine-15.jpg"
+                            src="{{asset('assets/images/dashboard/star-magazine-15.jpg')}}"
                             class="img-fluid"
                             alt="world-news"
                         />
